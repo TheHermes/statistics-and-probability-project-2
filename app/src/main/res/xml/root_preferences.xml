@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Statistik inställningar">
+
+        <EditTextPreference
+            app:key="firstStatement"
+            app:title="First Statement"
+            app:defaultValue="Har en Iphone"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="secondStatement"
+            app:title="Second Statement"
+            app:defaultValue="Har en inte Iphone"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="firstGroup"
+            app:title="First Group"
+            app:defaultValue="Vuxna"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="secondGroup"
+            app:title="Second Group"
+            app:defaultValue="Barn"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="signifikans"
+            app:title="Signifikansnivå"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
